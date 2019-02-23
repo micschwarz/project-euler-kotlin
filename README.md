@@ -4,3 +4,4 @@ Solutions for [Project Euler](https://projecteuler.net/problem=0) written in Kot
 
 ## Problems solved:
 - 1: 232168
+- 5: 232792560
