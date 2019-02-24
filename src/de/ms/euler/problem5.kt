@@ -6,14 +6,14 @@ import kotlin.system.measureNanoTime
 fun main() {
     var solution = 0
     val execTime = measureNanoTime {
-        solution = problem2(20)
+        solution = problem5(20)
     }
 
     println("Solution: $solution")
     println("Exec Time: ${formatExecTime(execTime)}")
 }
 
-fun problem2(maxDivisor: Int): Int {
+fun problem5(maxDivisor: Int): Int {
     val maxOddDivisor = if (maxDivisor % 2 == 0) maxDivisor - 1 else maxDivisor
 
     var divisable = false
